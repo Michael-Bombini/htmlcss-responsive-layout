@@ -69,11 +69,20 @@ header {
 
 nav {
     margin-right: 1.5rem;
+    
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
 
-.hamburger {
+.hamburger-menu {
     display: none;
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 /* ------------------------------------ */
@@ -281,9 +290,96 @@ nav {
     background: var(--color-one);
 }
 
+/* ------------------------------------ */
+
+/* About us section */
+
+.about-us h1 {
+    font-size: 3.2rem;
+    color: var(--color-one);
+}
+
+.about-us p {
+    margin : 1.5rem 0 ;
+}
 
 
+.about-us .about-us-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
 
+.about-us .col-1 h2 {
+    padding: 0.3rem 1.2rem;
+    color: var(--color-one);
+}
+
+.about-us .quote {
+  
+    width: 60px;
+    height: 60px;
+    fill: var(--color-one);
+    
+}
+
+
+/* ------------------------------------ */
+
+/* GET STARTED */
+
+.started.container {
+    padding: 1rem 6rem;
+    text-align: center;
+}
+
+.transparent {
+    font-size: 1.2rem;
+    color: lightgray;
+}
+
+.simple {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.free {
+    font-size: 3.5rem;
+    color: var(--color-gold);
+    font-weight: 700;
+}
+
+.started p {
+    color: #fff;
+    padding: 0 7rem;
+}
+
+.started button {
+    margin: 1.2rem 0;
+    padding: 0.8rem 4rem;
+    height: 50px;
+    border: none;
+    color: var(--color-one);
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* ------------------------------------ */
+
+
+/* Footer  */
+
+footer {
+    background: var(--color-footer);
+    color: #fff;
+}
+
+/* ------------------------------------ */
+
+
+/* media query */
 
 @media screen and (max-width : 992px) {
     .container {
@@ -291,13 +387,17 @@ nav {
     }
 
 
-    nav {
+
+    nav ul li{
         display: none;
     }
 
-
+    .hamburger-menu {
+        display: block;
+    }
 
 }
+
 
 
 @media screen and (max-width : 768px) {
@@ -328,3 +428,6 @@ nav {
  
 
 }
+
+
+/* ------------------------------------ */
