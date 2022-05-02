@@ -1,5 +1,78 @@
+/* RESET , UTILITIES AND BASE STYLES */
+
 * {
   margin : 0 ; 
   padding : 0 ; 
   box-sizing : border-box ; 
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+:root {
+    --color-one : #9792E4;
+    --color-two : #0084FD;
+    --color-two-light : #B5DDFF;
+    --color-black : #000;
+    --color-gold : #FDC15F;
+    --color-footer : #333333;
+}
+
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+.dflex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ul {
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-color: var(--color-two);
+    padding : 0.9rem ;
+}
+
+.get-started {
+    border-radius: 15px;
+    background: #fff;
+    color: #000;
+    margin-left: 0.5rem;
+    padding: 0.4rem 1rem;
+    
+}
+
+nav {
+    margin-right: 1.5rem;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.section {
+    border: 1px dashed red;
+    padding: 2rem 0;
+
 }
