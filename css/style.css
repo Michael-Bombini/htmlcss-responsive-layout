@@ -89,6 +89,11 @@ header {
 
 /*  first section cards white   */
 
+.section:nth-of-type(1) {
+    margin-top: 4rem;
+}
+
+
 .section {
     padding: 2rem 0;
 
