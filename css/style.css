@@ -410,6 +410,10 @@ footer {
         width: 534px;
     }
 
+    .col-1 {
+        flex-basis: calc(100% / 2 - 20px);
+    }
+
  
     
 }
